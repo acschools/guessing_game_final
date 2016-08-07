@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="hi_lo_game2.js"></script>
+
+ <link type ="text/css" rel="stylesheet" href = "hi_lo_game2.css"/>
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link href='https://fonts.googleapis.com/css?family=VT323|Rock+Salt|News+Cycle' rel='stylesheet' type='text/css'>
+
+
+    <title>HiLo Game</title>
+  </head>
+  <div>
+  <body>
+    <div class = "jumbotron">
+      <h1>Guess the Magic Number:<br>
+        <span class="man">Man</span> vs.
+        <span class="machine">Machine </span></h1>
+      </div>
+  <!-- end jumbotron -->
+<div class = "container">
+<div class = "row">
+  <div class = "col-sm-3"></div>
+  <div class = "col-sm-6">
+    <p>Enter your name.</p>
+    <!-- input field, submit button, and <p> for userName -->
+    <div class = "field">
+    <input type="text" id="inputFieldName"/>
+    <input type="button" value="Submit" onclick="submitName()"/>
+      <p id="outputName"></p>
+  </div>
+  <!-- end field class -->
+
+    <p>Guess a number between 1 and 100.</p>
+    <p>You have 5 tries to find the number that the computer has chosen.</p>
+    <!-- input field, submit button, and <p> for userGuess -->
+    <div class = "row">
+    <div class = "field">
+    <input type="text" id="inputFieldNumber"/>
+    <input type="button" value="Submit" onclick="checkNumber()" id="myBtn"/>
+  </div>
+  <div class = "row">
+    <p id="outputNumber"></p>
+  </div>
+  <div class = "row">
+    <p id="notification"></p>
+  </div>
+    <div class = "row">
+    <p id="attemptsLeft"> </p>
+  </div>
+  <!-- end field class -->
+</div>
+<!-- end new rows so that middle col won't spilt into three smaller cols -->
+  </div>
+  <!-- end middle column -->
+  <div class = "col-sm-3"></div>
+</div>
+<!-- end of rows -->
+  </body>
+</div>
+<!-- end container -->
+</html>

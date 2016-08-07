@@ -1,0 +1,51 @@
+h1{
+  color: #4DBCE9;
+  text-shadow: 5px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  background-image: url("http://science-all.com/images/wallpapers/white-background-image/white-background-image-6.png");
+}
+
+.man {
+  font-family: 'Rock Salt', cursive;
+  color:  #4DBCE9;
+}
+
+.machine {
+font-family: 'VT323', sans-serif;
+color:  #4DBCE9;
+
+}
+
+p {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.field {
+display: flex;
+justify-content: center;
+margin-left: 20px;
+margin-top: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+color: #4DBCE9;
+font-family: 'VT323', sans-serif;
+font-size: 20px;
+}
+
+body {
+  background-image: url("http://tweakmytwitter.com/backgrounds/images/bg/L265170642.gif");
+  padding-bottom: 75px;
+}
+
+.col-sm-6 {
+  background-image: url("http://science-all.com/images/wallpapers/white-background-image/white-background-image-6.png");
+}
